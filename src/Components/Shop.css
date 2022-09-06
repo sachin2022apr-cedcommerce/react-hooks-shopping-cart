@@ -1,0 +1,34 @@
+.shop-page{
+    color: #40989D;
+    padding: 1% 4%;
+    background-color: white;
+}
+.product-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.filter{
+    background-color: red;
+    height: 100%;
+    padding: 2%;
+    width: 300px;
+    flex: initial;
+}
+.product-one{
+    background-color:#ECECEC ;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin-bottom: 3%;
+} 
+select{
+    background-color: transparent;
+    color: #40989D;
+    border: none;
+    margin: 6px 15px 20px;
+    font-size: 18px;
+}

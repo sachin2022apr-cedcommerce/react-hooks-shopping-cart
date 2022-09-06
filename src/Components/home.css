@@ -1,0 +1,199 @@
+.homeDiv {
+  background-color: white;
+  width: 100%;
+}
+.banner {
+  position: relative;
+  padding: 2% 0%;
+  background-color: #eeecec;
+  display: flex;
+  align-items: center;
+  border-radius: 0 0 20px 20px;
+}
+.goToCategories {
+  font-size: 35px;
+  background-color: transparent;
+  border: none;
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  bottom: 2px;
+  left: calc(50% - 21px);
+  color: #223d4d;
+  z-index: 1;
+  transition: 0.3s;
+}
+.goToCategories:hover {
+  transform: translate(0, 5px);
+}
+.categories-div {
+  font-family: "Courier New", monospace;
+  color: #40989d;
+  padding: 1% 5%;
+  background-color: white;
+}
+.categories-div h2 {
+  font-size: 28px;
+  margin: 0;
+  letter-spacing: -1px;
+  font-weight: 500;
+}
+.categories-list {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.category-one {
+  background-color: #ececec;
+  height: 270px;
+  width: 270px;
+  position: relative;
+  margin-bottom: 3%;
+  overflow: hidden;
+  transition:all 0.3s ease-in-out;
+}
+.hr12 {
+  background-color: #40989d;
+  border: 1px solid #40989d;
+  margin: 1% 5% 3%;
+}
+.category-one img{
+width:100% ;
+opacity: 0.83;
+transition:all 0.3s ease-in-out;
+}
+.category-one h3 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+  padding: 5px 0 2px;
+  background-color: rgb(35, 61, 77, 0.7);
+  position: absolute;
+  top: calc(50% - 19px);
+  width: 100%;
+  color: white;
+}
+.category-one > img:hover{
+  opacity: 1;
+  transform: scale(1.05);
+  transition:all 0.3s ease-in-out;
+  cursor: pointer;
+  }
+
+.offer-div {
+  font-family: "Courier New", monospace;
+  color: #40989d;
+  padding: 1% 5%;
+  background-color: white;
+}
+.offer-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.offer-div h2 {
+  font-size: 28px;
+  margin: 0;
+  letter-spacing: -1px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.offer-one {
+  background-color: #c2f8da;
+  height: 250px;
+  width: 250px;
+  position: relative;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.offer-one i{
+cursor: pointer;
+}
+.offer-one h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 550;
+  padding: 5px 0 2px;
+  background-color: rgb(35, 61, 77, 0.7);
+  position: absolute;
+  top: calc(50% - 17px);
+  width: 100%;
+  color: white;
+}
+.promo {
+    position: absolute;
+    top: -18px;
+    left: 0;
+}
+.offer-one p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 5px 0 2px;
+    background-color: rgba(5, 37, 56, 0.8);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+  }
+.offer-div img {
+  width: 90%;
+}
+
+.testimonial-div {
+  font-family: "Courier New", monospace;
+  color: #40989d;
+  padding: 1% 5%;
+  background-color: white;
+}
+.testimonial-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.testimonial-one {
+  background-color: #ececec;
+  height: 250px;
+  width: 250px;
+  position: relative;
+  margin-bottom: 3%;
+  text-align: right;
+  align-items: center;
+}
+.testimonial-div h2 {
+  font-size: 28px;
+  margin: 0;
+  letter-spacing: -1px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.testimonial-one h4 {
+  height: 70px;
+  width: 70px;
+  background-color: #a0c6c7;
+  margin-left: calc(50% - 35px);
+  border-radius: 50%;
+}
+.testimonial-one p {
+  width: 90%;
+  padding: 0 5%;
+  text-align: justify;
+}
+.testimonial-one h3 {
+  width: 90%;
+  padding: 0 5%;
+  margin: 0;
+}
+.hr2 {
+  background-color: #40989d;
+  border: 1px solid #40989d;
+  margin: 1% 5% 5%;
+}
