@@ -1,34 +1,90 @@
-.shop-page{
-    color: #40989D;
-    padding: 1% 4%;
-    background-color: white;
+/* shop page css */
+.shop-page {
+  color: #40989d;
+  padding: 1% 4%;
+  background-color: white;
 }
-.product-list{
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
-    flex-wrap: wrap;
-    align-items: flex-start;
+.shop-page h3 {
+  color: #40989d;
+  margin: 0;
+  text-align: left;
+  padding: 2%;
+  font-size: 25px;
 }
-
-.filter{
-    background-color: red;
-    height: 100%;
-    padding: 2%;
-    width: 300px;
-    flex: initial;
+.shop-page h3 i {
+  margin: 0 5px;
 }
-.product-one{
-    background-color:#ECECEC ;
-    height: 200px;
-    width: 200px;
+/* product display */
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 3%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-bottom: 3%;
+}
+/* filter */
+.filter {
+  width: 60%;
+  margin-left: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.filter input {
+  height: 80%;
+  font-size: 20px;
+  color: #233d4d;
+  padding: 3px 5px;
+  border: 3px solid #40989d;
+  border-radius: 8px;
+}
+select {
+  background-color: transparent;
+  color: #40989d;
+  border: none;
+  margin: 6px 15px 20px;
+  font-size: 20px;
+  outline: none;
+  font-weight: 600;
+  text-align: right;
+}
+.product-one {
+  width: 210px;
+  position: relative;
+  margin: 2% 0 0.5%;
+  overflow: hidden;
+  background-color: white;
+  cursor: pointer;
+}
+.product-one img {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+.product-one:hover > img {
+  transform: scale(1.05);
+}
+.product-one h4 {
+  margin: 0;
+  padding: 2%;
+  font-size: 18px;
+  font-weight: 650;
+}
+.product-one p {
+  margin: 0;
+  padding: 2%;
+  font-size: 20px;
+}
+@media screen and (max-width: 500px) {
+  .product-one {
+    width: 180px;
     position: relative;
-    margin-bottom: 3%;
-} 
-select{
-    background-color: transparent;
-    color: #40989D;
-    border: none;
-    margin: 6px 15px 20px;
+    margin: 2% 0 0.5%;
+  }
+  .product-one h4 {
+    font-size: 16px;
+  }
+  .product-one p {
     font-size: 18px;
+  }
 }

@@ -1,0 +1,36 @@
+/* bill page css */
+.bill-page {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.bill-page h2 {
+  font-weight: 600;
+  font-size: 25px;
+  margin: 0;
+  color: #40989d;
+  padding-top: 10px;
+}
+.bill-page button {
+  width: 250px;
+  margin: 15px 0;
+  font-size: 18px;
+  padding: 8px 0;
+  font-weight: 550;
+  border: none;
+  background-color: #167d7f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.formElement {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+.formElement input {
+  width: 50%;
+}

@@ -1,7 +1,9 @@
+/* home page css */
 .homeDiv {
   background-color: white;
   width: 100%;
 }
+/* banner */
 .banner {
   position: relative;
   padding: 2% 0%;
@@ -9,7 +11,9 @@
   display: flex;
   align-items: center;
   border-radius: 0 0 20px 20px;
+  margin-bottom: 2%;
 }
+/* category */
 .goToCategories {
   font-size: 35px;
   background-color: transparent;
@@ -43,27 +47,37 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  gap: 30px;
 }
 
 .category-one {
-  background-color: #ececec;
-  height: 270px;
   width: 270px;
   position: relative;
   margin-bottom: 3%;
   overflow: hidden;
-  transition:all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  gap: 25px;
+}
+.category-one h5 {
+  margin: 0;
+  position: absolute;
+  bottom: 2px;
+  background-color: rgb(34, 61, 77, 0.8);
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 8px;
 }
 .hr12 {
   background-color: #40989d;
   border: 1px solid #40989d;
   margin: 1% 5% 3%;
 }
-.category-one img{
-width:100% ;
-opacity: 0.83;
-transition:all 0.3s ease-in-out;
+.category-one img {
+  width: 100%;
+  opacity: 0.83;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
 }
 .category-one h3 {
   margin: 0;
@@ -76,13 +90,14 @@ transition:all 0.3s ease-in-out;
   width: 100%;
   color: white;
 }
-.category-one > img:hover{
+.category-one > img:hover {
   opacity: 1;
   transform: scale(1.05);
-  transition:all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   cursor: pointer;
-  }
+}
 
+/* offers */
 .offer-div {
   font-family: "Courier New", monospace;
   color: #40989d;
@@ -91,9 +106,9 @@ transition:all 0.3s ease-in-out;
 }
 .offer-list {
   display: flex;
-  justify-content: space-evenly;
-  gap: 30px;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 25px;
 }
 .offer-div h2 {
   font-size: 28px;
@@ -103,17 +118,21 @@ transition:all 0.3s ease-in-out;
   margin-top: 15px;
 }
 .offer-one {
+  border-radius: 8px;
   background-color: #c2f8da;
-  height: 250px;
-  width: 250px;
+  width: 220px;
   position: relative;
+  margin-top: 1%;
   margin-bottom: 3%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.offer-one i{
-cursor: pointer;
+.offer-one i {
+  cursor: pointer;
+}
+.offer-one img {
+  border-radius: 8px;
 }
 .offer-one h3 {
   margin: 0;
@@ -126,26 +145,30 @@ cursor: pointer;
   width: 100%;
   color: white;
 }
-.promo {
-    position: absolute;
-    top: -18px;
-    left: 0;
-}
 .offer-one p {
-    margin: 0;
-    font-size: 18px;
-    font-weight: 200;
-    padding: 5px 0 2px;
-    background-color: rgba(5, 37, 56, 0.8);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: white;
-  }
+  margin: 0;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 5px 0 2px;
+  background-color: rgba(5, 37, 56, 0.8);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  border-radius: 0 0 8px 8px;
+}
+
+.promo {
+  position: absolute;
+  top: -18px;
+  left: 0;
+}
+
 .offer-div img {
   width: 90%;
 }
 
+/* testimonial */
 .testimonial-div {
   font-family: "Courier New", monospace;
   color: #40989d;
@@ -160,13 +183,13 @@ cursor: pointer;
 }
 
 .testimonial-one {
-  background-color: #ececec;
-  height: 250px;
   width: 250px;
+  padding: 2% 1%;
   position: relative;
   margin-bottom: 3%;
-  text-align: right;
-  align-items: center;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .testimonial-div h2 {
   font-size: 28px;
@@ -175,22 +198,23 @@ cursor: pointer;
   font-weight: 500;
   margin-top: 15px;
 }
-.testimonial-one h4 {
-  height: 70px;
-  width: 70px;
-  background-color: #a0c6c7;
-  margin-left: calc(50% - 35px);
+.testimonial-one img {
+  height: 100px;
+  width: 100px;
+  margin-left: 5%;
   border-radius: 50%;
 }
 .testimonial-one p {
   width: 90%;
+  font-size: 17px;
   padding: 0 5%;
-  text-align: justify;
+  text-align: center;
 }
 .testimonial-one h3 {
   width: 90%;
   padding: 0 5%;
   margin: 0;
+  text-align: right;
 }
 .hr2 {
   background-color: #40989d;

@@ -1,3 +1,4 @@
+/* head page css */
 header {
   width: 90%;
   padding: 1.5% 5% 1.5%;
@@ -9,7 +10,15 @@ header {
 }
 header h1 {
   margin: 0;
-  font-size: 20px;
+  font-size: 35px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 800;
+}
+.headChild {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
 }
 header h2 {
   margin: 0;
@@ -22,7 +31,27 @@ header h2 {
   padding: 1.5% 5% 1.5%;
   background-color: #40989d;
   color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  border-radius: 10px 10px 0 0;
+  position: absolute;
+  bottom: 0;
+}
+.foot h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+}
+.foot h1 i {
+  cursor: pointer;
+}
+@media only screen and (max-width: 560px) {
+  header {
+    flex-direction: column;
+  }
+  .headChild {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
 }

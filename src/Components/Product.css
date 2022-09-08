@@ -1,0 +1,99 @@
+/* product page css */
+.productDescriptionPage {
+  width: 90%;
+  margin: 2% auto;
+  text-align: left;
+}
+.h3 {
+  color: #40989d;
+  margin: 0;
+  text-align: left;
+  padding: 3px 3px 20px;
+  font-size: 25px;
+}
+.h3 i {
+  margin: 0 5px;
+}
+.h3 span {
+  cursor: pointer;
+}
+.Details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Details img {
+  width: 35%;
+  height: 100%;
+}
+.basicDetails {
+  width: 55%;
+  text-align: left;
+}
+.basicDetails h2 {
+  font-weight: 400;
+  color: #233d4d;
+  font-size: 25px;
+  margin: 0;
+  padding: 5px;
+}
+.basicDetails h5 {
+  font-weight: 800;
+  color: #014e7e94;
+  font-size: 20px;
+  margin: 0;
+  padding: 5px;
+}
+.basicDetails h1 {
+  font-weight: 400;
+  font-size: 28px;
+  margin: 0;
+  padding: 5px;
+}
+.basicDetails h3 {
+  font-weight: 400;
+  font-size: 28px;
+  margin: 0;
+  padding: 8px 5px;
+}
+.basicDetails button {
+  background-color: #233d4d;
+  padding: 8px 11px;
+  border: none;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+}
+.basicDetails button:hover {
+  background-color: #84a0a5;
+  padding: 8px 11px;
+  border: none;
+  font-size: 22px;
+  color: white;
+}
+.productDescriptionPage p {
+  font-weight: 400;
+  font-size: 28px;
+  margin: 0;
+  padding: 5px;
+  color: #40989d;
+}
+
+@media screen and (max-width: 700px) {
+  .Details {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .basicDetails {
+    width: 80%;
+    text-align: center;
+  }
+  .Details img {
+    width: 65%;
+  }
+  .productDescriptionPage p {
+    font-size: 20px;
+  }
+}
